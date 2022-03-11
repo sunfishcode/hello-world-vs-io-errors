@@ -16,6 +16,7 @@ See also [the original blog post] for more discussion.
 | C++        | Yes         | The C++ standard specifies this behavior
 | Fortran    | Yes         | `GNU Fortran 11.2.0`
 | Go         | Yes         | https://news.ycombinator.com/item?id=30612821
+| Haxe/HashLink| Yes       | `Haxe 4.2.4 + HashLink 1.11.0`
 | Haskell    | Yes         | `The Glorious Glasgow Haskell Compilation System, version 8.8.4`
 | Java       | Yes         | This is [documented behavior in Java], [since Java 1.0]
 | Julia      | Yes         | https://news.ycombinator.com/item?id=30619661
