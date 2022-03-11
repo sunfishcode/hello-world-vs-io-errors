@@ -31,6 +31,7 @@ See also [the original blog post] for more discussion.
 | Awk        | No          | `GNU Awk 5.1.0, API: 3.0 (GNU MPFR 4.1.0, GNU MP 6.2.1)`
 | Bash       | No          | `GNU bash, version 5.1.4(1)-release (x86_64-pc-linux-gnu)`
 | C#         | No          | `Mono JIT compiler version 6.8.0.105`
+| Deno       | No          | `deno 1.11.0 (release, x86_64-unknown-linux-gnu)`
 | Lisp       | No          | `SBCL 2.1.1`
 | OCaml      | No          | `4.08.1`
 | Perl       | No          | `perl 5, version 32, subversion 1 (v5.32.1) built for x86_64-linux-gnu-thread-multi (with 46 registered patches...)`
@@ -51,7 +52,7 @@ In some cases, only a specific implementation has been tested, and it's not yet
 been determined what the actual documented or specified behavior is. In those
 cases, I've listed the versions tested, or links to reports.
 
-Node.js is listed here as a "Language" because JavaScript itself doesn't have
+Node.js (and Deno) is listed here as a "Language" because JavaScript itself doesn't have
 a builtin concept of standard output, so it takes an embedding like Node.js to
 connect JS features to command-line concepts such as standard output.
 
