@@ -14,6 +14,7 @@ See also [the original blog post] for more discussion.
 | ---------- |:-----------:| ---------------
 | C          | Yes         | The C standard specifies this behavior
 | C++        | Yes         | The C++ standard specifies this behavior
+| Crystal    | Yes         | `Crystal 1.3.2 (2022-01-19)`
 | Fortran    | Yes         | `GNU Fortran 11.2.0`
 | Go         | Yes         | https://news.ycombinator.com/item?id=30612821
 | Haxe/HashLink| Yes       | `Haxe 4.2.4 + HashLink 1.11.0`
