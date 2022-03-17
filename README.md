@@ -10,41 +10,47 @@ defaults and ergonomics, in a specific context.
 
 See also [the original blog post] for more discussion.
 
-| Language   | Has the bug | Notes
-| ---------- |:-----------:| ---------------
-| C          | Yes         | The C standard specifies this behavior
-| C++        | Yes         | The C++ standard specifies this behavior
-| Crystal    | Yes         | `Crystal 1.3.2 (2022-01-19)`
-| Fortran    | Yes         | `GNU Fortran 11.2.0`
-| Go         | Yes         | https://news.ycombinator.com/item?id=30612821
-| Haxe/HashLink| Yes       | `Haxe 4.2.4 + HashLink 1.11.0`
-| Haskell    | Yes         | `The Glorious Glasgow Haskell Compilation System, version 8.8.4`
-| Java       | Yes         | This is [documented behavior in Java], [since Java 1.0]
-| Julia      | Yes         | https://news.ycombinator.com/item?id=30619661
-| Nim        | Yes         | `Nim Compiler Version 1.6.4`
-| Node.js    | Yes         | `v12.21.0`
-| Pascal     | Yes         | https://news.ycombinator.com/item?id=30613381
-| Python 2   | Yes         | `Python 2.7.18`
-| Ruby       | Yes         | `ruby 2.7.2p137 (2020-10-01 revision 5445e04352) [x86_64-linux-gnu]`
-| Scheme     | Yes         | `CHICKEN 5.2.0`
-| Swift      | Yes         | `Swift version 5.5.3`
-|            |             |
-| Ada        | No          | `GNAT 10.3.0`
-| Awk        | No          | `GNU Awk 5.1.0, API: 3.0 (GNU MPFR 4.1.0, GNU MP 6.2.1)`
-| Bash       | No          | `GNU bash, version 5.1.4(1)-release (x86_64-pc-linux-gnu)`
-| C#         | No          | `Mono JIT compiler version 6.8.0.105`
-| Deno       | No          | `deno 1.11.0 (release, x86_64-unknown-linux-gnu)`
-| Lisp       | No          | `SBCL 2.1.1`
-| OCaml      | No          | `4.08.1`
-| Perl       | No          | `perl 5, version 32, subversion 1 (v5.32.1) built for x86_64-linux-gnu-thread-multi (with 46 registered patches...)`
-| Perl 6     | No          | `v2020.12`
-| Php        | No          | `PHP 8.0.8 (cli) (build: Mar  3 2022 14:51:53) ( NTS )`
-| PowerShell | No          | https://twitter.com/perostergaard/status/1501936409547993102
-| Python 3   | No          | `Python 3.9.5`
-| Racket     | No          | `Racket v7.9 [bc]`
-| Rust       | No          | This is [documented behavior in Rust].
-| Tcl        | No          | `8.6.11`
-| Zig        | No          | https://ziglang.org/documentation/master/#Hello-World
+## Languages with the bug
+
+| Language   |  Notes                                     | How to fix the bug
+| ---------- | ------------------------------------------ | -----------------------------
+| C          | The C standard specifies this behavior     | [Example](Examples.md#C)
+| C++        | The C++ standard specifies this behavior   |
+| Crystal    | `Crystal 1.3.2 (2022-01-19)`               |
+| Fortran    | `GNU Fortran 11.2.0`                       |
+| Go         | https://news.ycombinator.com/item?id=30612821 |
+| Haxe/HashLink| `Haxe 4.2.4 + HashLink 1.11.0`           |
+| Haskell    | `The Glorious Glasgow Haskell Compilation System, version 8.8.4` |
+| Java       | This is [documented behavior in Java], [since Java 1.0] |
+| Julia      | https://news.ycombinator.com/item?id=30619661 |
+| Nim        | `Nim Compiler Version 1.6.4`               |
+| Node.js    | `v12.21.0`                                 |
+| Pascal     | https://news.ycombinator.com/item?id=30613381 |
+| Python 2   | `Python 2.7.18`                            |
+| Ruby       | `ruby 2.7.2p137 (2020-10-01 revision 5445e04352) [x86_64-linux-gnu]` |
+| Scheme     | `CHICKEN 5.2.0`                            |
+| Swift      | `Swift version 5.5.3`                      |
+
+## Languages without the bug
+
+| Language   | Notes
+| ---------- | ---------------
+| Ada        | `GNAT 10.3.0`
+| Awk        | `GNU Awk 5.1.0, API: 3.0 (GNU MPFR 4.1.0, GNU MP 6.2.1)`
+| Bash       | `GNU bash, version 5.1.4(1)-release (x86_64-pc-linux-gnu)`
+| C#         | `Mono JIT compiler version 6.8.0.105`
+| Deno       | `deno 1.11.0 (release, x86_64-unknown-linux-gnu)`
+| Lisp       | `SBCL 2.1.1`
+| OCaml      | `4.08.1`
+| Perl       | `perl 5, version 32, subversion 1 (v5.32.1) built for x86_64-linux-gnu-thread-multi (with 46 registered patches...)`
+| Perl 6     | `v2020.12`
+| Php        | `PHP 8.0.8 (cli) (build: Mar  3 2022 14:51:53) ( NTS )`
+| PowerShell | https://twitter.com/perostergaard/status/1501936409547993102
+| Python 3   | `Python 3.9.5`
+| Racket     | `Racket v7.9 [bc]`
+| Rust       | This is [documented behavior in Rust].
+| Tcl        | `8.6.11`
+| Zig        | https://ziglang.org/documentation/master/#Hello-World
 
 The specific source code tested comes from doing simple Web searches for
 hello world programs. The intention is to test the programs that are presented
