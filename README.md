@@ -40,6 +40,7 @@ See also [the original blog post] for more discussion.
 | Bash       | `GNU bash, version 5.1.4(1)-release (x86_64-pc-linux-gnu)`
 | C#         | `Mono JIT compiler version 6.8.0.105`
 | Deno       | `deno 1.11.0 (release, x86_64-unknown-linux-gnu)`
+| Hack       | `HHVM 4.108` or above when using [HSL IO]
 | Lisp       | `SBCL 2.1.1`
 | OCaml      | `4.08.1`
 | Perl       | `perl 5, version 32, subversion 1 (v5.32.1) built for x86_64-linux-gnu-thread-multi (with 46 registered patches...)`
@@ -73,3 +74,4 @@ or corrections are welcome!
 [Wikipedia's list of "Hello, World!" programs]: https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples
 [The Hello World Collection]: http://helloworldcollection.de/
 [the original blog post]: https://blog.sunfishcode.online/bugs-in-hello-world/
+[HSL IO]: https://docs.hhvm.com/hack/getting-started/input-and-output
