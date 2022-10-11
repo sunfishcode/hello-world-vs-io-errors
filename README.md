@@ -17,6 +17,7 @@ See also [the original blog post] for more discussion.
 | C          | The C standard specifies this behavior     | [Example](Examples.md#C)
 | C++        | The C++ standard specifies this behavior   |
 | Crystal    | `Crystal 1.3.2 (2022-01-19)`               |
+| Erlang/OTP | [Before Erlang/OTP 26.0](https://github.com/erlang/otp/issues/5797)
 | Fortran    | `GNU Fortran 11.2.0`                       |
 | Go         | https://news.ycombinator.com/item?id=30612821 |
 | Haxe/HashLink| `Haxe 4.2.4 + HashLink 1.11.0`           |
@@ -40,6 +41,7 @@ See also [the original blog post] for more discussion.
 | Bash       | `GNU bash, version 5.1.4(1)-release (x86_64-pc-linux-gnu)`
 | C#         | `Mono JIT compiler version 6.8.0.105`
 | Deno       | `deno 1.11.0 (release, x86_64-unknown-linux-gnu)`
+| Erlang/OTP | `Erlang/OTP 26.0` or above
 | Hack       | `HHVM 4.108` or above when using [HSL IO]
 | Lisp       | `SBCL 2.1.1`
 | OCaml      | `4.08.1`
