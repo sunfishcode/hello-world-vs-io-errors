@@ -20,3 +20,10 @@ int main(void) {
     return EXIT_SUCCESS;
 }
 ```
+
+## Lua
+
+```lua
+io.write("Hello World\n")
+assert(io:flush())
+```

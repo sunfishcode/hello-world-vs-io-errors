@@ -24,6 +24,7 @@ See also [the original blog post] for more discussion.
 | Haskell    | `The Glorious Glasgow Haskell Compilation System, version 8.8.4` |
 | Java       | This is [documented behavior in Java], [since Java 1.0] |
 | Julia      | https://news.ycombinator.com/item?id=30619661 |
+| Lua        | `v5.3.3`                                   | [Example](Examples.md#Lua)
 | Nim        | `Nim Compiler Version 1.6.4`               |
 | Node.js    | `v12.21.0`                                 |
 | Pascal     | https://news.ycombinator.com/item?id=30613381 |
