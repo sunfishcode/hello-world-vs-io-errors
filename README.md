@@ -44,6 +44,7 @@ See also [the original blog post] for more discussion.
 | Deno       | `deno 1.11.0 (release, x86_64-unknown-linux-gnu)`
 | Erlang/OTP | `Erlang/OTP 26.0` or above
 | Hack       | `HHVM 4.108` or above when using [HSL IO]
+| Hare       | `hare` + `harec` 20230222 snapshot
 | Lisp       | `SBCL 2.1.1`
 | OCaml      | `4.08.1`
 | Perl       | `perl 5, version 32, subversion 1 (v5.32.1) built for x86_64-linux-gnu-thread-multi (with 46 registered patches...)`
