@@ -15,7 +15,7 @@ See also [the original blog post] for more discussion.
 | Language   |  Notes                                     | How to fix the bug
 | ---------- | ------------------------------------------ | -----------------------------
 | C          | The C standard specifies this behavior     | [Example](Examples.md#C)
-| C++        | The C++ standard specifies this behavior   |
+| C++        | The C++ standard specifies this behavior   | [Example](Examples.md#C++)
 | Crystal    | `Crystal 1.3.2 (2022-01-19)`               |
 | Erlang/OTP | [Before Erlang/OTP 26.0](https://github.com/erlang/otp/issues/5797)
 | Fortran    | `GNU Fortran 11.2.0`                       |

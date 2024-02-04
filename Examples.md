@@ -21,6 +21,26 @@ int main(void) {
 }
 ```
 
+## C++
+
+```c++
+#include <cstdio>
+#include <cstdlib>
+#include <string>
+#include <iostream>
+
+int writeOut(const std::string& text)
+{
+  std::cout << text;
+  return fflush(stdout);
+}
+
+int main(int, char**)
+{
+  return (writeOut("Hello World!\n") != EOF) ? EXIT_SUCCESS : EXIT_FAILURE;
+}
+```
+
 ## Lua
 
 ```lua
