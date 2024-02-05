@@ -19,7 +19,7 @@ See also [the original blog post] for more discussion.
 | Crystal    | `Crystal 1.3.2 (2022-01-19)`               |
 | Erlang/OTP | [Before Erlang/OTP 26.0](https://github.com/erlang/otp/issues/5797)
 | Fortran    | `GNU Fortran 11.2.0`                       |
-| Go         | https://news.ycombinator.com/item?id=30612821 |
+| Go         | https://news.ycombinator.com/item?id=30612821 | [Example](Examples.md#Go)
 | Haxe/HashLink| `Haxe 4.2.4 + HashLink 1.11.0`           |
 | Haskell    | `The Glorious Glasgow Haskell Compilation System, version 8.8.4` |
 | Java       | This is [documented behavior in Java], [since Java 1.0] |

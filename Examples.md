@@ -27,3 +27,17 @@ int main(void) {
 io.write("Hello World\n")
 assert(io:flush())
 ```
+
+## Go
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	if _, err := fmt.Println("Hello, World!"); err != nil {
+		panic(err)
+	}
+}
+```
