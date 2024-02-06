@@ -21,6 +21,20 @@ int main(void) {
 }
 ```
 
+## C++
+
+```c++
+#include <cstdlib>
+#include <iostream>
+
+int main(int, char**)
+{
+  std::cout << "Hello World!\n" << std::flush;
+
+  return (std::cout.rdstate()) ? EXIT_FAILURE : EXIT_SUCCESS;
+}
+```
+
 ## Lua
 
 ```lua
